@@ -1,0 +1,34 @@
+SIMULATED PHISHING EMAIL - TRAINING/PORTFOLIO USE ONLY
+All indicators below are fictional/documentation-safe and are not claims about real malicious infrastructure.
+
+From: "Microsoft Account Support" <support@micr0soft-security.example>
+Reply-To: verification@micr0soft-security.example
+Return-Path: bounce@mailer.micr0soft-security.example
+To: employee@medisure.example
+Date: 12 February 2026 10:14:12 +0000
+Subject: Action Required: Verify Your Microsoft Account
+Message-ID: <20260212101412.12345@micr0soft-security.example>
+Received: from mailer.micr0soft-security.example (192.0.2.76)
+    by mail.medisure.example with ESMTP id LAB12345;
+    Thu, 12 Feb 2026 10:14:12 +0000
+Authentication-Results: mail.medisure.example;
+    spf=fail smtp.mailfrom=micr0soft-security.example;
+    dkim=fail header.d=micr0soft-security.example;
+    dmarc=fail header.from=micr0soft-security.example
+
+Hello,
+
+Unusual activity has been detected on your Microsoft account.
+Your access will be suspended unless you verify your account immediately.
+
+Verify Account:
+https://micr0soft-security.example/verify
+
+Attachment: Account_Update.zip
+
+Regards,
+Microsoft Account Support
+
+LAB NOTE:
+The domain uses the reserved .example namespace and the IP 192.0.2.76 is from TEST-NET-1.
+Do not substitute real malicious files or live phishing URLs when publishing this portfolio project.

@@ -1,0 +1,8 @@
+Type,Indicator,Assessment
+Sender,support@micr0soft-security.example,Simulated look-alike sender
+Reply-To,verification@micr0soft-security.example,Simulated suspicious reply address
+Domain,micr0soft-security.example,Simulated typosquatting pattern
+URL,https://micr0soft-security.example/verify,Simulated credential-phishing URL
+IP,192.0.2.76,TEST-NET-1 documentation IP
+Attachment,Account_Update.zip,Simulated unexpected archive
+SHA-256,LAB-SIMULATED-HASH-NOT-A-REAL-FILE,Placeholder only; no malware supplied
